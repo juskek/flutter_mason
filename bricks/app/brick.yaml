@@ -1,0 +1,25 @@
+name: app
+description: Creates an app skeleton for Flutter apps
+repository: https://github.com/juskek/flutter_mason/tree/main/bricks/app
+version: 0.0.0+1
+vars:
+  app_name:
+    type: string
+    default: example_app
+    description: Name of the app package, used for bundleId and applicationId
+    prompt: Enter the app package name.
+  display_name:
+    type: string
+    default: Example app
+    description: Display name shown in iOS and Android launcher
+    prompt: Enter the display name shown in iOS and Android
+  reverse_domain:
+    type: string
+    default: tech.kek
+    description: Reverse domain to use in bundleId and applicationId
+    prompt: Enter the reverse domain to use in bundleId and applicationId
+  android_minSdkVersion:
+    type: string
+    default: 19
+    description: minSdkVersion - cloud_firestore 19, 
+    prompt: minSdkVersion to use in android/app/build.gradle

@@ -1,0 +1,12 @@
+{
+  "@helloWorld": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "continueWithApple": "Continue with Apple",
+  "continueWithFacebook": "Continue with Facebook",
+  "continueWithGoogle": "Continue with Google",
+  "continueWithPhone": "Continue with phone",
+  "helloWorld": "Hello World!",
+  "whatsYourNumber": "What's your phone number?",
+  "whatsYourNumberExplanation": "Explain why we need their number"
+}

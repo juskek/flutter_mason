@@ -1,0 +1,12 @@
+{
+  "@helloWorld": {
+    "description": "The conventional newborn programmer greeting"
+  },
+  "continueWithApple": "asdfs",
+  "continueWithFacebook": "asdfads",
+  "continueWithGoogle": "asdfds",
+  "continueWithPhone": "asdfds",
+  "helloWorld": "Bonjour le monde!",
+  "whatsYourNumber": "asdfasd",
+  "whatsYourNumberExplanation": "asdfadsf"
+}
