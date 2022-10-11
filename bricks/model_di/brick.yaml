@@ -1,0 +1,15 @@
+name: model_di
+description: Creates boilerplate for Model classes with DI and testing capabilities based on injectable and mockito.
+repository: https://github.com/juskek/flutter_mason/tree/main/bricks/model_di
+version: 0.0.0+1
+vars:
+  model_name:
+    type: string
+    default: some example
+    description: Name of the Model class.
+    prompt: Enter the name of the Model class.
+  relative_path_to_deps:
+    type: string
+    default: package:honeycomb_app/utils/index.dart
+    description: Path to index file containining exports of injectable and file for getIt, @InjectableInit, and Env class.
+    prompt: Enter the path to index file containining exports of injectable and file for getIt, @InjectableInit, and Env class.

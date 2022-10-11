@@ -10,7 +10,7 @@ My repo for flutter mason bricks
 4. Use it: `mason make <brick_name>`
 
 
-## Making code changes
+## Making code changes on dev branch
 E.g., for app brick
 ```
 git add .
@@ -22,6 +22,16 @@ mason add -g app --git-url https://github.com/juskek/flutter_mason.git --git-pat
 mason ls -g
 ```
 
+## Using bricks on dev branch
+```
+git add .
+git commit -m "update"
+git push
+
+mason remove -g model_di
+mason add -g model_di --git-url https://github.com/juskek/flutter_mason.git --git-path bricks/model_di --git-ref dev
+mason ls -g
+```
 
 ## Specific Usage
 ### New App
@@ -34,4 +44,10 @@ flutter pub get
 flutter pub run flutter_flavorizr
 
 flutter run --flavor flav_dev -t lib/main_flav_dev.dart
+```
+
+## Model files for Dependency Injection
+```
+mason make model_di
+
 ```
