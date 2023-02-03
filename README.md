@@ -28,8 +28,8 @@ git add .
 git commit -m "update"
 git push
 
-mason remove -g model_di
-mason add -g model_di --git-url https://github.com/juskek/flutter_mason.git --git-path bricks/model_di --git-ref dev
+mason remove -g repository
+mason add -g repository --git-url https://github.com/juskek/flutter_mason.git --git-path bricks/repository --git-ref dev
 mason ls -g
 ```
 
@@ -46,8 +46,8 @@ flutter pub run flutter_flavorizr
 flutter run --flavor flav_dev -t lib/main_flav_dev.dart
 ```
 
-## Model files for Dependency Injection
+## Repository
 ```
-mason make model_di
+mason make repository
 
 ```
