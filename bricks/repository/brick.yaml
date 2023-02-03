@@ -1,0 +1,10 @@
+name: repository
+description: Creates boilerplate for the Repository pattern using injectable and the Android app architecture guide.
+repository: https://github.com/juskek/flutter_mason/tree/main/bricks/model_di
+version: 0.0.0+1
+vars:
+  data_type:
+    type: string
+    default: some example
+    description: Name of the Repository.
+    prompt: Enter the data type of the Repository, e.g. NewsRepository, SettingsRepository.
