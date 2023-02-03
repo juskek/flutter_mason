@@ -1,4 +1,4 @@
-export 'package:injectable/injectable.dart';
+import 'package:injectable/injectable.dart';
 import './i_{{data_type.lowerCase().snakeCase()}}_repository.dart';
 import './{{data_type.lowerCase().snakeCase()}}_local_data_source.dart';
 import './{{data_type.lowerCase().snakeCase()}}_remote_data_source.dart';
