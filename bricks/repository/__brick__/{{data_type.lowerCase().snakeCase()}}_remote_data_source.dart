@@ -1,7 +1,7 @@
 export 'package:injectable/injectable.dart';
-import './i_{{model_name.lowerCase().snakeCase()}}_repository.dart';
+import './i_{{data_type.lowerCase().snakeCase()}}_repository.dart';
 
 @singleton
-class {{model_name.pascalCase()}}LocalDataSource {
+class {{data_type.pascalCase()}}LocalDataSource {
   
 }
